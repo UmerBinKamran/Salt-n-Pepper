@@ -1,0 +1,201 @@
+body {
+  margin: 0px;
+  background-color: #000;
+  font-family: "Georgia", serif;
+}
+.header {
+  width: 100%;
+  background-color: #000;
+  height: 100px;
+  padding: 2px 50px;
+}
+
+.header > div > img {
+  margin-top: 15px;
+}
+
+.d-inline {
+  display: inline-block;
+}
+
+.menu > li {
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.menu-box {
+  /*height: 100%;*/
+  vertical-align: bottom;
+  margin-left: 100px;
+  /* margin-bottom: 15px;*/
+}
+.franchise {
+  background-color: #000;
+  border: 1px solid white;
+  border-radius: 40px;
+  color: #ffffff;
+  padding: 12px 13.5px 12px 13.5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.btn {
+  background-color: #ed1c24;
+  border: 1px solid #ed1c24;
+  border-radius: 40px;
+  color: #ffffff;
+  padding: 12px 13.5px 12px 13.5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.fa-solid {
+  margin-left: 5px;
+}
+.banner img {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+h1 span {
+  color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.brand-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.brand-card:hover {
+  transform: translateY(-5px);
+}
+
+.brand-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.brand-card button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.brand-card button:hover {
+  background-color: #444;
+}
+/*.locations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 40px;
+}*/
+
+.location-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #111;
+  border-radius: 10px;
+  overflow: hidden;
+  gap: 20px;
+  align-items: center;
+}
+
+.location-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.location-image {
+  flex: 1;
+  width: 40%;
+}
+
+.location-image img {
+  object-fit: cover;
+}
+
+.location-details {
+  flex: 1;
+  padding: 20px;
+}
+
+.city {
+  color: #d12d2d;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.location-name {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.location-details p {
+  margin: 8px 0;
+  color: #ccc;
+}
+
+.get-directions {
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  transition: background 0.3s;
+}
+
+.get-directions:hover {
+  background: white;
+  color: black;
+}
+
+.get-directions span {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
